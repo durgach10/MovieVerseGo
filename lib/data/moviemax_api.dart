@@ -2,12 +2,12 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
-import 'package:movie_max/data/models/banner.dart';
-import 'package:movie_max/data/models/cinema.dart';
-import 'package:movie_max/data/models/city.dart';
-import 'package:movie_max/data/models/movie.dart';
-import 'package:movie_max/data/models/seat_layout.dart';
-import 'package:movie_max/data/models/session.dart';
+import 'package:movieversego/data/models/banner.dart';
+import 'package:movieversego/data/models/cinema.dart';
+import 'package:movieversego/data/models/city.dart';
+import 'package:movieversego/data/models/movie.dart';
+import 'package:movieversego/data/models/seat_layout.dart';
+import 'package:movieversego/data/models/session.dart';
 
 class MovieMaxApi {
   MovieMaxApi({http.Client? client}) : _client = client ?? http.Client();

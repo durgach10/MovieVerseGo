@@ -2,9 +2,9 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:movie_max/data/models/booking.dart';
-import 'package:movie_max/services/whatsapp_share.dart';
-import 'package:movie_max/view/widgets/network_poster.dart';
+import 'package:movieversego/data/models/booking.dart';
+import 'package:movieversego/services/whatsapp_share.dart';
+import 'package:movieversego/view/widgets/network_poster.dart';
 
 class TicketScreen extends StatelessWidget {
   const TicketScreen({super.key, required this.booking});
@@ -30,7 +30,7 @@ class TicketScreen extends StatelessWidget {
         : '';
 
     return '''
-🎬 *Super Cinemas Ticket*
+🎬 *MovieVerseGo Cinemas Ticket*
 
 *Movie:* ${booking.movieTitle}
 *Cinema:* ${booking.cinemaName}$screenLine

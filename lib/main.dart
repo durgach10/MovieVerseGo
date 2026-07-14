@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_max/view/screens/home_screen.dart';
+import 'package:movieversego/view/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Super Cinemas',
+      title: 'MovieVerseGo Cinemas',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(

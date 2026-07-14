@@ -2,9 +2,9 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:movie_max/data/models/booking.dart';
-import 'package:movie_max/view/screens/ticket_screen.dart';
-import 'package:movie_max/view/widgets/network_poster.dart';
+import 'package:movieversego/data/models/booking.dart';
+import 'package:movieversego/view/screens/ticket_screen.dart';
+import 'package:movieversego/view/widgets/network_poster.dart';
 
 
 class PaymentScreen extends StatefulWidget {

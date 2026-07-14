@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:movie_max/data/models/movie.dart';
-import 'package:movie_max/data/models/session.dart';
-import 'package:movie_max/data/moviemax_api.dart';
-import 'package:movie_max/view/screens/seat_selection_screen.dart';
-import 'package:movie_max/view/widgets/network_poster.dart';
+import 'package:movieversego/data/models/movie.dart';
+import 'package:movieversego/data/models/session.dart';
+import 'package:movieversego/data/moviemax_api.dart';
+import 'package:movieversego/view/screens/seat_selection_screen.dart';
+import 'package:movieversego/view/widgets/network_poster.dart';
 
 class MovieDetailScreen extends StatefulWidget {
   const MovieDetailScreen({

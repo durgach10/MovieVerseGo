@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_max/view/widgets/network_poster.dart';
+import 'package:movieversego/view/widgets/network_poster.dart';
 
 
 class MovieCard extends StatelessWidget {

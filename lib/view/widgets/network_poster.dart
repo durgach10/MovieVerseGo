@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:movie_max/data/moviemax_api.dart';
+import 'package:movieversego/data/moviemax_api.dart';
 
 class NetworkPoster extends StatelessWidget {
   const NetworkPoster({

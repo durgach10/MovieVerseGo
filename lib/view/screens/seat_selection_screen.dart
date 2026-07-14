@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:movie_max/data/models/booking.dart';
-import 'package:movie_max/data/models/seat_layout.dart';
-import 'package:movie_max/data/moviemax_api.dart';
-import 'package:movie_max/view/screens/payment_screen.dart';
+import 'package:movieversego/data/models/booking.dart';
+import 'package:movieversego/data/models/seat_layout.dart';
+import 'package:movieversego/data/moviemax_api.dart';
+import 'package:movieversego/view/screens/payment_screen.dart';
 
 class SeatSelectionScreen extends StatefulWidget {
   const SeatSelectionScreen({

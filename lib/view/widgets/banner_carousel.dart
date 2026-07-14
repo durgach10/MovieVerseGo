@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:movie_max/data/models/banner.dart';
-import 'package:movie_max/data/models/movie.dart';
-import 'package:movie_max/view/widgets/network_poster.dart';
+import 'package:movieversego/data/models/banner.dart';
+import 'package:movieversego/data/models/movie.dart';
+import 'package:movieversego/view/widgets/network_poster.dart';
 
 
 class BannerCarousel extends StatefulWidget {

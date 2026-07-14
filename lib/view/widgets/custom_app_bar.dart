@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:movie_max/data/models/city.dart';
+import 'package:movieversego/data/models/city.dart';
 
 class CustomAppBar extends StatelessWidget
     implements PreferredSizeWidget {

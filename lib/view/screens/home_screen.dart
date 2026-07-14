@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:movie_max/data/models/banner.dart';
-import 'package:movie_max/data/models/cinema.dart';
-import 'package:movie_max/data/models/city.dart';
-import 'package:movie_max/data/models/movie.dart';
-import 'package:movie_max/data/moviemax_api.dart';
-import 'package:movie_max/view/screens/movie_details_screen.dart';
-import 'package:movie_max/view/widgets/banner_carousel.dart';
-import 'package:movie_max/view/widgets/bottom_nav_bar.dart';
-import 'package:movie_max/view/widgets/custom_app_bar.dart';
-import 'package:movie_max/view/widgets/movie_card.dart';
-import 'package:movie_max/view/screens/search_screen.dart';
+import 'package:movieversego/data/models/banner.dart';
+import 'package:movieversego/data/models/cinema.dart';
+import 'package:movieversego/data/models/city.dart';
+import 'package:movieversego/data/models/movie.dart';
+import 'package:movieversego/data/moviemax_api.dart';
+import 'package:movieversego/view/screens/movie_details_screen.dart';
+import 'package:movieversego/view/widgets/banner_carousel.dart';
+import 'package:movieversego/view/widgets/bottom_nav_bar.dart';
+import 'package:movieversego/view/widgets/custom_app_bar.dart';
+import 'package:movieversego/view/widgets/movie_card.dart';
+import 'package:movieversego/view/screens/search_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
